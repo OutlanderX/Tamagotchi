@@ -13,7 +13,7 @@ public class Contento implements EstadoMascota{
 	@Override
 	public void Jugar() {
 		// TODO Auto-generated method stub
-		
+		mMascota.setFelicidad(felicidad+1);
 	}
 
 	@Override
