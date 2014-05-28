@@ -10,6 +10,14 @@ public class Mascota {
 		mEstado = new Hambriento(this);
 	}
 	
+	public void darComer(){
+		mEstado.Comer();
+	}
+	
+	public void jugar(){
+		mEstado.Jugar();
+	}
+	
 	public void setmEstado(EstadoMascota mEstado) {
 		this.mEstado = mEstado;
 	}
