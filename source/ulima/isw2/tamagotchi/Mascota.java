@@ -2,7 +2,7 @@ package ulima.isw2.tamagotchi;
 
 public class Mascota {
 	private EstadoMascota mEstado;
-	public int Felicidad=0;
+	private int Felicidad=0;
 	
 	
 	
